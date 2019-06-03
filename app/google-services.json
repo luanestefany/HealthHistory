@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "272502272616",
+    "firebase_url": "https://health-history-24c83.firebaseio.com",
+    "project_id": "health-history-24c83",
+    "storage_bucket": "health-history-24c83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272502272616:android:84c2872fc8e6a438",
+        "android_client_info": {
+          "package_name": "com.example.healthhistory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272502272616-pt37m0418ffad912ecp08tncm7f8br0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthhistory",
+            "certificate_hash": "f3ed5a13d8bbb1da8bba2b100c86439f97413f8e"
+          }
+        },
+        {
+          "client_id": "272502272616-qpqi8aii22snspfid5j44erqs74v2jjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2guQ1azx-B9OPFCUiPFvLHZ12pJkdgUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272502272616-qpqi8aii22snspfid5j44erqs74v2jjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
