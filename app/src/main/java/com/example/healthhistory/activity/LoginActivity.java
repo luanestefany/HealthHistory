@@ -110,4 +110,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CriarContaActivity.class);
         startActivity(intent);
     }
+
+    public void abrirRecuperacao(View view) {
+        Intent intent = new Intent(this, ResetarSenhaActivity.class);
+        startActivity(intent);
+    }
 }

@@ -26,6 +26,7 @@ public class CriarConsultaActivity extends AppCompatActivity {
     private EditText endereco;
     private EditText telefone;
     private EditText convenio;
+    private EditText tipoConsulta;
     private Button botaoSalvar;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
@@ -43,6 +44,7 @@ public class CriarConsultaActivity extends AppCompatActivity {
         endereco = (EditText) findViewById(R.id.editText15);
         telefone = (EditText) findViewById(R.id.editText16);
         convenio = (EditText) findViewById(R.id.editText17);
+        tipoConsulta = (EditText) findViewById(R.id.etTipo);
 
         botaoSalvar = (Button) findViewById(R.id.button5);
         botaoSalvar.setOnClickListener(new View.OnClickListener() {
@@ -55,6 +57,7 @@ public class CriarConsultaActivity extends AppCompatActivity {
                 consulta.setEndereco(endereco.getText().toString());
                 consulta.setTelefone(telefone.getText().toString());
                 consulta.setConvenio(convenio.getText().toString());
+                consulta.setTipoConsulta(tipoConsulta.getText().toString());
                 consulta.salvarConsultas();
                 criarConsulta();
 

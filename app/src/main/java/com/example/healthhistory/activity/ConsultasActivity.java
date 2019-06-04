@@ -31,8 +31,6 @@ public class ConsultasActivity extends AppCompatActivity {
     private FloatingActionButton botaoCriarConsulta;
 
 
-    private List<Consultas> listaConsultas = new ArrayList<Consultas>();
-    private ArrayAdapter<Consultas> arrayAdapterConsultas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +38,7 @@ public class ConsultasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_consultas);
 
         toolbar = (Toolbar) findViewById(R.id.tb_consultas);
-        //testeluane2
+
         //configura toolbar
         toolbar.setTitle("Consultas");
         toolbar.setNavigationIcon(R.drawable.ic_action_arrow_left);
@@ -66,7 +64,11 @@ public class ConsultasActivity extends AppCompatActivity {
         });
 
 
+
+
     }
+
+
 
     @Override
     public void onBackPressed() // botao do sistema voltar

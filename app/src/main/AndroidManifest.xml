@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.CriarExameActivity"></activity>
+        <activity android:name=".activity.ResetarSenhaActivity"></activity>
+        <activity android:name=".activity.CriarRetornoActivity" />
+        <activity android:name=".activity.CriarExameActivity" />
         <activity android:name=".activity.CriarConsultaActivity" />
         <activity android:name=".activity.AgendaActivity" />
         <activity android:name=".activity.RetornosActivity" />

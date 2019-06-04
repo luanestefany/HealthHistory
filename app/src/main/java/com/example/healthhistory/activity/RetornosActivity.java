@@ -1,6 +1,7 @@
 package com.example.healthhistory.activity;
 
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -11,6 +12,7 @@ import com.example.healthhistory.R;
 public class RetornosActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
+    private FloatingActionButton botaoCriarRetorno;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,16 @@ public class RetornosActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(RetornosActivity.this, MainActivity.class); //indica pra qual tela ira
                 startActivity(intent); // abre a tela
+                finish();
+            }
+        });
+
+        botaoCriarRetorno = (FloatingActionButton) findViewById(R.id.floatingActionButton6);
+        botaoCriarRetorno.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RetornosActivity.this, CriarRetornoActivity.class);
+                startActivity(intent);
                 finish();
             }
         });

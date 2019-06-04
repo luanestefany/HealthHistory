@@ -10,6 +10,7 @@ public class Consultas {
     private String endereco;
     private String telefone;
     private String convenio;
+    private String tipoConsulta;
 
 
 
@@ -69,4 +70,13 @@ public class Consultas {
     public void setConvenio(String convenio) {
         this.convenio = convenio;
     }
+
+    public String getTipoConsulta() {
+        return tipoConsulta;
+    }
+
+    public void setTipoConsulta(String tipoConsulta) {
+        this.tipoConsulta = tipoConsulta;
+    }
 }
+
