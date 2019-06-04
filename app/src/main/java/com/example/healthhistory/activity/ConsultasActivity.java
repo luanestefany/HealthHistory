@@ -38,7 +38,7 @@ public class ConsultasActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consultas);
-        
+
         toolbar = (Toolbar) findViewById(R.id.tb_consultas);
 
         //configura toolbar
