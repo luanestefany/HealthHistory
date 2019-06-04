@@ -40,7 +40,7 @@ public class ConsultasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_consultas);
 
         toolbar = (Toolbar) findViewById(R.id.tb_consultas);
-
+        //testeluane
         //configura toolbar
         toolbar.setTitle("Consultas");
         toolbar.setNavigationIcon(R.drawable.ic_action_arrow_left);
